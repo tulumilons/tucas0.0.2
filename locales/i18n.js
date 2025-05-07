@@ -29,8 +29,12 @@ const getDeviceLanguage = () => {
 
 const resources = {
   en: {
-    //Settings
     translation: {
+      //Main application
+      no_internet: "No internet!",
+      please_reconnect: "Please Reconnect!",
+      reload_app: "Reload app",
+      //Settings
       change_language: "Change language",
       about_me: "About me",
       about_me1: "Hello people!",
@@ -62,8 +66,12 @@ const resources = {
     },
   },
   pt: {
-    //Settings
     translation: {
+      //Main application
+      no_internet: "Sem internet!",
+      please_reconnect: "Por Favor Reconecte!",
+      reload_app: "Reinicie o APP",
+      //Settings
       change_language: "Mude de idioma",
       about_me: "Sobre mim",
       about_me1: "Olá, pessoal!",
