@@ -134,7 +134,7 @@ export const styles = StyleSheet.create({
   //EasyPhrases
   ////////////////////////////
   sortContainer: {
-    marginTop: 10,
+    // marginTop: -30,
     width: "90%",
     flexDirection: "row",
     alignItems: "center",
@@ -147,7 +147,8 @@ export const styles = StyleSheet.create({
   },
   //list
   easyContentScroll: {
-    height: height * 0.75,
+    marginTop: -40,
+    height: height * 0.7,
   },
   easyListContainer: {
     flexDirection: "row",

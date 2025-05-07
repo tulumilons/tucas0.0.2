@@ -24,15 +24,15 @@ const adUnitId = __DEV__
 export default function App() {
   return (
     <>
-      <BannerAd
-        unitId={adUnitId}
-        size={BannerAdSize.ANCHORED_ADAPTIVE_BANNER}
-      />
       <NavigationContainer>
         {/* <DrawerNavigator /> */}
         {/* <StackNavigator /> */}
         <MyTabs />
       </NavigationContainer>
+      <BannerAd
+        unitId={adUnitId}
+        size={BannerAdSize.ANCHORED_ADAPTIVE_BANNER}
+      />
     </>
   );
 }
